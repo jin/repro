@@ -1,0 +1,9 @@
+load("@bazel_tools//tools/build_defs/repo:android.bzl", "aar_maven_import_external")
+
+aar_maven_import_external(
+    name = "com_android_volley_volley",
+    aar_sha256 = "f2ed1f4dcf40de5489218964b43d9ce87e5c6d00dba6dbce081b8eb2768c24d2",
+    artifact = "com.android.volley:volley:1.1.1",
+    licenses = ["notice"],
+    server_urls = ["http://repo.spring.io/libs-release/"],
+)
