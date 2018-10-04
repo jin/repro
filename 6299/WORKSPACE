@@ -1,0 +1,6 @@
+android_sdk_repository(name = "androidsdk")
+
+maven_jar(
+    name = "com_googlecode_mp4parser_isoparser",
+    artifact = "com.googlecode.mp4parser:isoparser:1.1.21",
+)
